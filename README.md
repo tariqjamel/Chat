@@ -13,7 +13,7 @@ ChatApp is an Android application developed using Kotlin and Android Studio, aim
 
 ## Screenshots
 
-[Screenshot 1](C:\Users\Khalid Mehmood\OneDrive\Desktop\a)
+[Screenshot 1](C:\Users\Khalid Mehmood\OneDrive\Desktop\a.jpg)
 
 ## Installation
 
