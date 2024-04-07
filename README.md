@@ -13,8 +13,8 @@ ChatApp is an Android application developed using Kotlin and Android Studio, aim
 
 ## Screenshots
 
-<img src="signup.jpg" width="20%" height="20%">
-<img src="main.jpg" width="20%" height="20%">
+<img  align="left" src="signup.jpg" width="20%" height="20%">
+<img  align="left" src="main.jpg" width="20%" height="20%">
 <img src="profile.jpg" width="20%" height="20%">
 <img src="chat.jpg" width="20%" height="20%">
 
