@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/blue_setting"
+        android:title="Setting"
+        android:id="@+id/myItems"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/itemAccount"
+                android:title="Account"/>
+            <item android:id="@+id/itemSecurity"
+                android:title="Security"/>
+            <item android:id="@+id/itemPrivacy"
+                android:title="Privacy"/>
+            <item android:id="@+id/itemHelp"
+                android:title="Help"/>
+            <item android:id="@+id/itemAbout"
+                android:title="About"/>
+            <item android:id="@+id/itemLogOut"
+                android:title="Log Out"/>
+        </menu>
+    </item>
+</menu>

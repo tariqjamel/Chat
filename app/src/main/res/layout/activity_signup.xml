@@ -1,0 +1,108 @@
+<!-- activity_signup.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SignupActivity"
+    android:background="@color/dark_blue">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="282dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginLeft="38dp"
+        android:hint="+92 3*********"
+        app:endIconMode="clear_text"
+        app:helperText="Required*"
+        app:helperTextTextColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signupMail"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="282dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginLeft="38dp"
+        android:hint="OTP"
+        app:endIconMode="clear_text"
+        app:helperText="Required*"
+        app:helperTextTextColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signupPassword"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--
+    <Button
+        android:id="@+id/btnGetOTP"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_marginLeft="78dp"
+        android:background="@drawable/button_background"
+        android:text="Get OTP"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+-->
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="566dp"
+        android:layout_marginLeft="78dp"
+        android:background="@drawable/button_background"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+
+    <ImageView
+        android:id="@+id/btnGetOTP"
+        android:layout_width="30dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/chick_blue_bg" />
+
+    <ImageView
+        android:layout_width="274dp"
+        android:layout_height="267dp"
+        android:layout_marginLeft="44dp"
+        app:srcCompat="@drawable/chat_icon" />
+
+</RelativeLayout>

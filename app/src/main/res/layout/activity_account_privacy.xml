@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    tools:context=".AccountPrivacyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/privacyTextView"
+        android:text="We prioritize the privacy and security of your information at Chat. Here's a brief overview:\n\n
+- **Information Collection:** We collect limited personal data to provide and personalize our services.\n\n
+- **Information Usage:** Your data is used to enhance your experience and for analytics, but never shared without your consent.\n\n
+- **Data Security:** We employ industry-standard measures to protect your information.\n\n
+- **Your Choices:** You can manage your data preferences and opt-out of certain features.\n\n
+- **Children's Privacy:** Our services are not directed at children under 13.\n\n
+- **Changes:** We may update this statement; your continued use signifies acceptance."
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
